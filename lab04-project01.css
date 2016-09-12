@@ -1,165 +1,95 @@
 h1, h2, h3, nav, footer 
 {
- font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+#today
+{
+color: #fff;
+border: 1px solid #467b89;
+background: #6eafbf;
 }
 body 
 {
- font-family: Georgia, Cambria, "Times New Roman", serif;
- font-size: 100%;
- background-color: #213643;
+font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+font-size: 100%;
 }
-h1 
-{ 
-  font-size: 24px; 
-  font-size: 1.5rem;
-}
-h2 
-{ 
-  font-size: 14px; 
-  font-size: 0.75rem;
-}
-h3 
-{ 
-  font-size: 18px; 
-  font-size: 1.125rem;
-  border-bottom: solid 1pt #999999;
-  margin: 0 0 0.5em 0;
-}
-p 
+table 
 {
-  font-size: 16px; 
-  font-size: 1rem;
+margin: 2em auto;
+color: #666;
+font-size: 0.85em;
 }
-nav 
-{ 
-  font-size: 18px; 
-  font-size: 1.125rem;
-}
-#review 
+table a
 {
-   margin-top: 1em;
+color: #467b89;
 }
-#review div 
+table caption 
 {
-   border-bottom: dotted 1pt #999999;
-   margin-bottom: 1.25em;
+background: #8FAB98;
+color: black;
+font-size: 1em;
+padding: 12px 0 8px 0;
+text-align: center;
 }
-#review p 
+table thead th 
 {
-   margin: 0;
+font-size: 0.64em;
+padding: 5px 0;
+color: #666;
+text-transform: uppercase;
+border-bottom: 1px solid #BBBBBB;
+background: #F2F2F2;
 }
-a:link 
+table tbody td 
 {
-   font-weight: bold;
-   color: #47B3D7;
+color: #666;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+padding: 8px;
+border-color: #fff #BBBBBB #BBBBBB #fff;
+background: #ededed;
+text-align: center;
+font-weight: bold;
+border: 1px solid;
 }
-a:visited 
+table tbody td.pad 
 {
-   color: #BB78FF;
+background: #F2F2F2;
 }
-a:hover 
+tfoot
 {
-   background-color: #FFFFCC;
+color: #e0e0e0;
+font-size: 12px;
+text-align: center;
 }
-header, footer 
+table tfoot tr
 {
-  color: white;
-  background-color: #3D6271;
-  margin: 0em 4em 0.5em 4em;
+background: #F2F2F2;
 }
-hgroup 
+table tfoot td
 {
-  padding: 0.5em;
+padding: 13px 13px;
 }
-nav 
+table tfoot a
 {
-  background-color: #728B96;
+color: #666;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
 }
-nav ul li 
+table tfoot td#prev 
 {
-   list-style: none;
-   display: inline;
+text-align: left;
 }
-nav 
+table tfoot td#next 
 {
-   padding: 0.25em;
+text-align: right;
 }
-nav a 
+.box 
 {
-   padding: 0.25em;
+margin: 2em auto 0 auto;
+background-color: #D9C896;
+width: 50%;
+padding: 0.5em;
 }
-
-article 
+.box p 
 {
-   background-color: white;
-   margin: 1em 4em 1em 4em;
-   padding: 0.5em;
-}
-.textfield, figcaption 
-{
-   color: #728B96;
-   font-style: italic;
-  font-size: 14px; 
-  font-size: .875rem;
-}
-p 
-{
-   margin: 0 0 0.5em 0;
-}
-figure 
-{
-   margin: 0.5em 0 0.5em 0;
-}
-figure img 
-{
-   padding: 0.25em;
-   border: solid 1px #999999;
-}
-figure div 
-{
-   margin: 0.25em 0 2em 0;
-   padding: 0.5em;
-   width: 485px;
-   background-color: #9FAAB0;
-   border: solid 1px #999999;
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   background-image: url(images/gray-gradient.gif);
-   background-repeat: repeat-x;
-}
-figure div  p 
-{
-   font-size: 70%;
-}
-figure div img 
-{
-   padding: 0;
-   border: 0;
-}
-figure div p 
-{
-   margin: 0;
-}
-figcaption 
-{
-  margin-bottom: 0.5em;
-}
-
-span.share
-{
-  display: inline-block;
-  background: url(images/glyphicons-halflings.png) no-repeat;
-  width: 15px;
-  height: 15px;
-  background-position: -120px -72px;  
-  padding-right: 5px;
-}
-footer 
-{
-  padding: 0.5em;
-}
-footer p 
-{
-  font-size: 15px; 
-  font-size: .875rem;
+margin: 0.5em;
 }
